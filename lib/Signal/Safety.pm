@@ -14,6 +14,7 @@ XSLoader::load(__PACKAGE__, __PACKAGE__->VERSION);
 __END__
 
 =head1 SYNOPSIS
+
  {
      local $Signal::Safety = 0;
      do_something_scary():
